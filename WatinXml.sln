@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatinXml", "WatinXml\WatinXml.csproj", "{668ADD2B-FECB-4EA1-901E-322F5461D16E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wxCore", "wxCore\wxCore.csproj", "{31066D70-2A4B-4EFE-894F-40D2172E22D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QaCommon", "QaCommon\QaCommon.csproj", "{B9D927A1-8BA4-4160-B396-0E03B3DD690C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wxRecorder", "wxRecorder\wxRecorder.csproj", "{AF8BFBF9-92CC-4982-A4A0-735C7BEF717C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wxCapture", "wxCapture\wxCapture.csproj", "{7BF0F00F-84C2-4408-A951-66B36045813B}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 5
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SccProjectUniqueName1 = QaCommon\\QaCommon.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = QaCommon\\
+		SccProjectUniqueName2 = WatinXml\\WatinXml.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = WatinXml\\
+		SccProjectUniqueName3 = wxCore\\wxCore.csproj
+		SccLocalPath3 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection3 = wxCore\\
+		SccProjectUniqueName4 = wxCapture\\wxCapture.csproj
+		SccLocalPath4 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection4 = wxCapture\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{668ADD2B-FECB-4EA1-901E-322F5461D16E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{668ADD2B-FECB-4EA1-901E-322F5461D16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{668ADD2B-FECB-4EA1-901E-322F5461D16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{668ADD2B-FECB-4EA1-901E-322F5461D16E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31066D70-2A4B-4EFE-894F-40D2172E22D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31066D70-2A4B-4EFE-894F-40D2172E22D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31066D70-2A4B-4EFE-894F-40D2172E22D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31066D70-2A4B-4EFE-894F-40D2172E22D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D927A1-8BA4-4160-B396-0E03B3DD690C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D927A1-8BA4-4160-B396-0E03B3DD690C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D927A1-8BA4-4160-B396-0E03B3DD690C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D927A1-8BA4-4160-B396-0E03B3DD690C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF8BFBF9-92CC-4982-A4A0-735C7BEF717C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF8BFBF9-92CC-4982-A4A0-735C7BEF717C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF8BFBF9-92CC-4982-A4A0-735C7BEF717C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF8BFBF9-92CC-4982-A4A0-735C7BEF717C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF0F00F-84C2-4408-A951-66B36045813B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF0F00F-84C2-4408-A951-66B36045813B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF0F00F-84C2-4408-A951-66B36045813B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF0F00F-84C2-4408-A951-66B36045813B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{31066D70-2A4B-4EFE-894F-40D2172E22D3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>wxCore</RootNamespace>
+    <AssemblyName>wxCore</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.SHDocVw, Version=1.1.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Temp\WatiN2\bin\Interop.SHDocVw.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Lib\Common\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Rhino.Mocks, Version=2.9.6.40350, Culture=neutral, PublicKeyToken=0b3305902db7183f">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Temp\WatiN2\bin\Rhino.Mocks.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WatiN.Core, Version=2.0.0.1000, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Temp\WatiN2\bin\WatiN.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="wxAction\ClickableType.cs" />
+    <Compile Include="wxAction\IeActions.cs" />
+    <Compile Include="wxAction\wxActClick.cs" />
+    <Compile Include="wxAction\wxActFileUpload.cs" />
+    <Compile Include="wxAction\wxActGetTestInfo.cs" />
+    <Compile Include="wxAction\wxActGoTo.cs" />
+    <Compile Include="wxAction\wxAction.cs" />
+    <Compile Include="wxAction\wxActLink.cs" />
+    <Compile Include="wxAction\wxActSelect.cs" />
+    <Compile Include="wxAction\wxActSubmit.cs" />
+    <Compile Include="wxAction\wxActText.cs" />
+    <Compile Include="wxAction\wxActWait.cs" />
+    <Compile Include="wxAction\wxActWaitUntil.cs" />
+    <Compile Include="wxBasePage.cs" />
+    <Compile Include="WxFactory.cs" />
+    <Compile Include="wxPage.cs" />
+    <Compile Include="Wxs.cs" />
+    <Compile Include="wxScenario.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WxSerializer.cs" />
+    <Compile Include="wxTest\wxTest.cs" />
+    <Compile Include="wxTest\wxTsConditional.cs" />
+    <Compile Include="wxTest\wxTsLinks.cs" />
+    <Compile Include="wxTest\wxTsPop.cs" />
+    <Compile Include="wxTest\wxTsQuestionnaire.cs" />
+    <Compile Include="wxTest\wxTsSimple.cs" />
+    <Compile Include="wxTest\wxTsSpin.cs" />
+    <Compile Include="wxVerification\wxVerifier.cs" />
+    <Compile Include="wxVerification\wxVfDb.cs" />
+    <Compile Include="wxVerification\wxVfPopUp.cs" />
+    <Compile Include="wxVerification\wxVfText.cs" />
+    <Compile Include="wxVerification\wxVfTitle.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
